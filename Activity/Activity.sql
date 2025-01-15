@@ -1,1 +1,1 @@
-SELECT * FROM user_db.users;
+SELECT * FROM user_db.products;
