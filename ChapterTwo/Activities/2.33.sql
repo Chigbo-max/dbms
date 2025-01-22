@@ -1,0 +1,4 @@
+USE CAPE_CODD;
+SELECT SKU, SKU_Description
+FROM INVENTORY
+WHERE SKU_Description LIKE '__d%'

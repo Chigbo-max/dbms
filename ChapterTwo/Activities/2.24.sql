@@ -1,0 +1,4 @@
+USE CAPE_CODD;
+SELECT SKU, SKU_Description
+from INVENTORY 
+WHERE QuantityOnHand = 0
