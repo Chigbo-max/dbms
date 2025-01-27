@@ -1,0 +1,5 @@
+-- Determine the maximum and minimum TotalAmount
+
+USE mdc_ch02;
+SELECT MIN(TOTALAMOUNT) AS MIN_TOTAL_AMOUNT, MAX(TOTALAMOUNT) AS MAX_TOTAL_AMOUNT 
+FROM INVOICE
